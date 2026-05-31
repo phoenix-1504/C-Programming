@@ -1,26 +1,11 @@
-# C Programming: Practice, Problem Solving & Projects 🚀
+# 💻 C Programming Journey
 
-Welcome to my C Programming repository! This space serves as a log of my daily coding progress, competitive programming solutions, and technical projects. I created this repository to build a rock-solid foundation in low-level programming and Data Structures & Algorithms (DSA) for my broader work in Data Science.
+Welcome to my C Programming repository! This space is dedicated to logging my consistent progress and exploring the depths of C. Here, you'll find a collection of my everyday practice codes, optimized algorithmic solutions, and practical projects.
 
-## 📌 What's Inside?
+## 📂 Repository Structure
 
-This repository is organized into three main categories:
+To keep the codebase clean and organized, this repository utilizes a multi-branch structure. You can switch between branches to find specific types of work:
 
-* **`Daily_Practice/`**: Everyday coding exercises, syntax familiarization, and fundamental data structure implementations.
-* **`Competitive_Programming/`**: My solutions to algorithmic challenges from platforms like LeetCode, Codeforces, and HackerRank. Code here is optimized for time and space complexity.
-* **`Projects/`**: Standalone applications and systems built entirely in C. Each project contains its own `README.md` detailing the logic and how to run it.
-
-## 🛠️ Tech Stack & Tools
-* **Language:** C
-* **Concepts Focused:** Pointers, Memory Management, DSA, and Optimization
-* **Compiler:** GCC
-
-## 🚀 How to Run the Code
-To compile and run any of the C files locally, use the following commands in your terminal:
-
-```bash
-# Compile the code
-gcc filename.c -o output_name
-
-# Run the executable
-./output_name
+* **[`main`](#)**: This branch houses my **Projects**. Here you'll find larger, structured applications and tools built using C.
+* **[`Daily-Practice`](#)**: This branch contains my everyday coding exercises. It covers fundamental concepts, syntax practice, data structures, and standard problem-solving scripts.
+* **[`Competitive`](#)**: This branch is dedicated to **Competitive Programming**. It includes my solutions to various algorithmic challenges, optimized for time and space complexity.
