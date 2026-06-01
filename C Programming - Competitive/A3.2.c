@@ -19,7 +19,7 @@ void DisplayFactor(int iNo)
     {
         if((iNo % i == 0) && (i % 2 == 0))
         {
-            printf("%d",i);
+            printf("%d ",i);
         }
     }
 }
@@ -29,7 +29,7 @@ int main()
     int iValue = 0;
 
     printf("Enter Number: \n");
-    scanf("%d",iValue);
+    scanf("%d",&iValue);
 
     DisplayFactor(iValue);
 
