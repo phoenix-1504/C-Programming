@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+
+void ReverseDisplay(char *str)
+{
+    char *start = NULL ; 
+
+    start = str;
+
+    while (*str != '\0')
+    {
+        str++ ;
+    }
+    // ---ISSUE ON THIS LINE--- (14)
+    while (start <= str)
+    {
+        printf("%c\n", *str);
+        str--;
+    }
+}
+
+
+int main ()
+{
+    char Arr [50] = {"\0"};
+
+    printf("Enter String : ");
+    scanf("%[^'\n']s", Arr);
+
+    ReverseDisplay(Arr);
+    return 0;
+}
